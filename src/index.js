@@ -38,6 +38,7 @@ import Form from '../packages/form/index.js';
 import FormItem from '../packages/form-item/index.js';
 import Tabs from '../packages/tabs/index.js';
 import TabPane from '../packages/tab-pane/index.js';
+import LoTabPane from '../packages/lo-tab-pane/index.js';
 import Tag from '../packages/tag/index.js';
 import Tree from '../packages/tree/index.js';
 import Alert from '../packages/alert/index.js';
@@ -122,6 +123,7 @@ const components = [
   FormItem,
   Tabs,
   TabPane,
+  LoTabPane,
   Tag,
   Tree,
   Alert,
@@ -196,7 +198,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
-  version: '2.12.0',
+  version: '1.0.4',
   locale: locale.use,
   i18n: locale.i18n,
   install,
@@ -240,6 +242,7 @@ export default {
   FormItem,
   Tabs,
   TabPane,
+  LoTabPane,
   Tag,
   Tree,
   Alert,
