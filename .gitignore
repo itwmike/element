@@ -9,6 +9,7 @@ yarn-debug.log.*
 yarn-error.log.*
 lerna-debug.log.*
 .idea
+.vs
 .vscode
 examples/element-ui
 examples/pages/en-US
