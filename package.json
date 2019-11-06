@@ -1,7 +1,7 @@
 {
   "name": "element-ui",
   "version": "2.11.1",
-  "description": "A Component Library for Vue.js.",
+  "description": "广联达协同LO 公文定制",
   "main": "lib/element-ui.common.js",
   "files": [
     "lib",

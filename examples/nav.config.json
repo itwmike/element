@@ -216,6 +216,10 @@
               "title": "Tabs 标签页"
             },
             {
+              "path": "/lo-tabs",
+              "title": "LoTabs 标签页"
+            },
+            {
               "path": "/breadcrumb",
               "title": "Breadcrumb 面包屑"
             },
