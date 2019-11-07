@@ -2,7 +2,7 @@
     <div
             class="el-tab-pane"
             v-if="(!lazy || loaded) || active"
-            :style="{visibility: active ? '' : 'hidden', width: active ? '' : '0px', height: active ? '' : '0px', opacity: active ? '' : '0', overflow: active ? '' : 'hidden'}"
+            :style="getStyle"
             role="tabpanel"
             :aria-hidden="!active"
             :id="`pane-${paneName}`"
@@ -42,6 +42,17 @@
       },
       paneName() {
         return this.name || this.index;
+      },
+      getStyle() {
+        if (this.active) {
+          return {};
+        } else {
+          if (this.paneName === 'zhengWen') {
+            return {visibility: 'hidden', width: '0px', height: '0px', opacity: '0'};
+          } else {
+            return {display: 'none'};
+          }
+        }
       }
     },
     updated() {
