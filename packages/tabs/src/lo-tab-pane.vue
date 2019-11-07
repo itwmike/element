@@ -2,7 +2,7 @@
     <div
             class="el-tab-pane"
             v-if="(!lazy || loaded) || active"
-            :style="{width: active ? '' : '0px', height: active ? '' : '0px', opacity: active ? '' : '0', position: active ? '' : 'absolute', left: active ? '' : '-100000px'}"
+            :style="{visibility: active ? '' : 'hidden', width: active ? '' : '0px', height: active ? '' : '0px', opacity: active ? '' : '0', position: active ? '' : 'absolute', left: active ? '' : '-100000px'}"
             role="tabpanel"
             :aria-hidden="!active"
             :id="`pane-${paneName}`"

@@ -1,7 +1,7 @@
 {
   "name": "element-ui",
   "version": "2.11.1",
-  "description": "广联达协同LO 公文定制",
+  "description": "广联达协同LO 公文定制 2.11.1-01",
   "main": "lib/element-ui.common.js",
   "files": [
     "lib",
